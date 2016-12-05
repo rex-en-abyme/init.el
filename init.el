@@ -1,5 +1,6 @@
 (require 'package)
 
+;; insert file name from helm buffer into current buffer: `C-c <tab>`
 ;; Flight things:
 ;; C-h P: Check source code for package
 ;; Look up something in the manual: `C-h S` (M-x info-lookup-symbol)
@@ -486,9 +487,9 @@
 ;;type M-x customize-variable RET company-backends
 
 ;; expand-region https://github.com/magnars/expand-region.el
-(require 'expand-region)
+;;(require 'expand-region)
 
-;;(global-set-key (kbd "M-P") 'er/expand-region);;TODO Change
+
 ;;(global-set-key (kbd "M-N") 'er/contract-region);;TODO Change
 
 ;;----------;;
